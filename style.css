@@ -1,0 +1,27 @@
+.header{
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+
+}
+.leftlinks{
+    display:flex;
+    justify-content: space-around;
+    /* here without the gap theres only one other mehod to make this which is to 
+    use margins on each child element */
+    gap: 20px;
+}
+.logo{
+    font-size: 48px;
+    font-weight:900;
+}
+.leftlinks{
+    font-size: 18px;
+}
