@@ -1,7 +1,13 @@
+html,body{
+    padding: 0;
+    margin:0;
+}
 .header{
     background-color: #1F2937;
     color: white;
     font-family: Roboto;
+    padding: 5px;
+    margin: 0px;
 
 }
 .nav{
@@ -17,11 +23,52 @@
     /* here without the gap theres only one other mehod to make this which is to 
     use margins on each child element */
     gap: 20px;
+    color: #e5e7eb;
 }
 .logo{
-    font-size: 48px;
+    font-size: 24px;
     font-weight:900;
 }
 .leftlinks{
     font-size: 18px;
+    
+}
+
+.mid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    
+
+}
+.left{
+    max-width: 50%;
+}
+.right{
+    max-width: 45%;
+}
+.img{
+    max-height: 500px;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+}
+.left{
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.left *{
+    margin-bottom: 10px;
+}
+button{
+    background-color:#3882F6 ;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+
 }
