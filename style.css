@@ -1,11 +1,12 @@
 html,body{
     padding: 0;
     margin:0;
+    font-family: Roboto;
 }
 .header{
     background-color: #1F2937;
     color: white;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     padding: 5px;
     margin: 0px;
 
@@ -50,6 +51,7 @@ html,body{
 }
 .img{
     max-height: 500px;
+    border-radius: 3%;
 }
 .heading{
     font-size: 48px;
@@ -111,4 +113,36 @@ button{
     text-align: right;
     font-weight: bold;
     font-size: 28px;
+}
+.call-to-action{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 58%;
+    background-color: #3882f6;
+    display: flex;
+    padding:40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    gap:30px;
+    
+}
+.heading2{
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+.randomtext{
+    color:#e5e7eb;
+}
+.call{
+    border: 2px solid white
+}
+.footer{
+    padding:30px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    margin-top: 100px;
 }
